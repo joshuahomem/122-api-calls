@@ -1,6 +1,6 @@
 import requests
 import json
-from key import key
+from env.key import key
 print("key")
 APIkey = "3c50bbfe9ef1bd837eb70d4686ef6674"
 city = "Vancouver"
