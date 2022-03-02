@@ -2,7 +2,7 @@ import requests
 import json
 from env.key import key
 print("key")
-APIkey = "3c50bbfe9ef1bd837eb70d4686ef6674"
+APIkey = key
 city = "Vancouver"
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={APIkey}"
 data = requests.get(url)
