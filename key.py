@@ -1,1 +1,1 @@
-key = "your API Key goes here"
+key = "your API Key goes here!"
